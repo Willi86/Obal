@@ -20,30 +20,25 @@ body {
     font-size: larger; 
     color: cornsilk;
 }
-
 #branding {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
     padding-top: 35vh;
 }
-
 #branding p {
     font-size: larger;
 }
-
 .main-nav {
     background-color: #ada8c7;
     text-align: center;
     margin: 0%;
 }
-
 .main-nav li {
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
 }
-
 .main-nav a {
     text-decoration: none;
     letter-spacing: 1px;
@@ -51,18 +46,15 @@ body {
     text-transform: uppercase;
     cursor: pointer;
 }
-
 article, #menu, #misc {
     padding-top: 30px;
     padding-left: 28%;
     padding-right: 28%;
     font-size: larger;
 }
-
 article p {
     font-size: 20px;
 }
-
 .sidebar {
     color: rgb(65, 53, 88);
     background: linear-gradient(180deg, #ada8c7, aliceblue);
@@ -72,38 +64,32 @@ article p {
     padding: 10px;
     height: 500px;
 }
-
 .sidebar a {
     color: rgb(65, 53, 88);
     display: block;
     text-decoration: none;
     padding: 5px 5px;
 }
-
 .sidebar a:hover {
     background: linear-gradient(45deg, white, #938eaf);
 }
-
-table, th, td {
+table, th, td  {
 
     border: 1px solid black;
     text-align: center;
     padding: 10px;
+    background-color: #938eaf;
 }
-
 table {
-    border-collapse: collapse;
+    border-collapse: collapse; 
 }
-
 .footer {
     color: rgb(65, 53, 88);
     background-color: #ada8c7;
-
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 50px;
     text-align: center;
 }
-
 .footer li {
     display: inline-block;
     cursor: pointer;
