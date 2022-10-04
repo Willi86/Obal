@@ -1,24 +1,21 @@
 
-font-family {
+.font-family {
 
 }
 
-font-size {
+.font-size {
 
 }
 
-background-color {
+.background-color {}
 
-}
-
-list-style {
+.list-style {
     
 }
  
 a:link {
     
 }
-
 a:visited{
     
 } 
@@ -31,5 +28,104 @@ a:active{
 
 }
 
+table, th, td{
+
+    border: 1px solid black;
+    text-align: center;
+    background-color: #45545e;
+    color: rgba(0, 0, 0, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+    padding: 10px;
+}
+
+table{
+ 
+    border-collapse: collapse;
+ width: 100%; /* Full width */
+
+
+}
+    
+
+
+
+
+
+.btn{
+    
+  
+
+}
+
+
+
+
+
+.main-nav li{
+
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid rgba(95, 100, 27, 0.767);
+    border-radius: 10px;
+    background-color: #ada8c7;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    transition: all 1.3s ease;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.main-header
+{
+
+    background-image: url("header.jpg");
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; /* <length> values */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(40, 53, 7);
+    font-size: larger;
+    
+}
+
+.footer {
+
+    display: inline-block;
+
+    margin: 0 10px;
+    padding: 0px;
+    border: 1px solid rgba(95, 100, 27, 0.767);
+    border-radius: 10px;
+    background-color: #ada8c7;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    transition: all 1.3s ease;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+
+}
+ 
 /** we also need to add width, color, padding, margin along w. three other CSS attributes**/
 /* wow another comment */
