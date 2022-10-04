@@ -1,131 +1,110 @@
 
-.font-family {
 
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    background-color: #F7F7F7;
+    /*background-color: #001829;*/
+    color: black;
 }
 
-.font-size {
-
-}
-
-.background-color {}
-
-.list-style {
-    
-}
- 
-a:link {
-    
-}
-a:visited{
-    
-} 
-
-a:hover {
-
-} 
-
-a:active{
-
-}
-
-table, th, td{
-
-    border: 1px solid black;
-    text-align: center;
-    background-color: #45545e;
-    color: rgba(0, 0, 0, 0.685);
-    font-family: Arial, Helvetica, sans-serif;
-   font-weight: bolder;
-    padding: 10px;
-}
-
-table{
- 
-    border-collapse: collapse;
- width: 100%; /* Full width */
-
-
-}
-    
-
-
-
-
-
-.btn{
-    
-  
-
-}
-
-
-
-
-
-.main-nav li{
-
-    display: inline-block;
-    margin: 0 10px;
-    padding: 10px;
-    border: 1px solid rgba(95, 100, 27, 0.767);
-    border-radius: 10px;
-    background-color: #ada8c7;
-    color: #000;
-    text-transform: uppercase;
-    font-size: 1.1em;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    transition: all 1.3s ease;
-    cursor: pointer;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-
-
-}
-.main-header
-{
-
-    background-image: url("header.jpg");
-  
+.main-header {
+    background-image: url("banner_fullsize.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh; /* <length> values */
+    height: 100vh; /* <length> values */
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    font-size: larger; 
+    color: cornsilk;
+}
+
+#branding {
+    font-style: italic;
+    font-weight: lighter;
     text-align: center;
-    color: rgb(40, 53, 7);
+    padding-top: 35vh;
+}
+
+#branding p {
     font-size: larger;
-    
+}
+
+.main-nav {
+    background-color: #ada8c7;
+    text-align: center;
+    margin: 0%;
+}
+
+.main-nav li {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+article, #menu, #misc {
+    padding-top: 30px;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-size: larger;
+}
+
+article p {
+    font-size: 20px;
+}
+
+.sidebar {
+    color: rgb(65, 53, 88);
+    background: linear-gradient(180deg, #ada8c7, aliceblue);
+    float: right;
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    height: 500px;
+}
+
+.sidebar a {
+    color: rgb(65, 53, 88);
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.sidebar a:hover {
+    background: linear-gradient(45deg, white, #938eaf);
+}
+
+table, th, td {
+
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
 }
 
 .footer {
-
-    display: inline-block;
-
-    margin: 0 10px;
-    padding: 0px;
-    border: 1px solid rgba(95, 100, 27, 0.767);
-    border-radius: 10px;
+    color: rgb(65, 53, 88);
     background-color: #ada8c7;
-    color: #000;
+
     text-transform: uppercase;
-    font-size: 1.1em;
-    font-weight: bolder;
     letter-spacing: 1px;
-    transition: all 1.3s ease;
-    cursor: pointer;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-    
-
-
 }
- 
-/** we also need to add width, color, padding, margin along w. three other CSS attributes**/
-/* wow another comment */
+
+.footer li {
+    display: inline-block;
+    cursor: pointer;
+}
