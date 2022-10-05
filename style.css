@@ -81,15 +81,14 @@ table, th, td  {
     padding: 10px;
     border-collapse: collapse; 
 }
-a:visited {
+
+.sidebar a:visited, .museum_links a:visited {
     color: rgb(0, 75, 136);
-  }
-  a:link {
-    color: green;
-  }
-  a:active {
-    color: yellow;
-  } 
+}
+
+a:active {
+    color: purple;
+} 
 
 
 /* we still need a a:active, a:visited */
