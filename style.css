@@ -31,7 +31,7 @@ body {
     color: rgb(65, 53, 88);
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 40px;
+    letter-spacing: 28px;
 }
 
 .main-nav li, footer li {
@@ -46,7 +46,7 @@ body {
     letter-spacing: 1px;
 }
 
-.main-content {
+.main-content, blockquote {
     padding-top: 30px;
     padding-left: 28%;
     padding-right: 28%;
@@ -89,3 +89,9 @@ table, th, td  {
 a:active {
     color: purple;
 } 
+
+.architecture_img {
+    width: 850px;
+    height: 200px;
+    object-fit: cover;
+}
