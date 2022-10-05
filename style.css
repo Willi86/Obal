@@ -1,5 +1,4 @@
 
-
 body {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,7 +24,6 @@ body {
     text-align: center;
     padding-top: 35vh;
 }
-
 
 .main-nav, footer {
     background-color: #ada8c7;
@@ -53,10 +51,6 @@ body {
     padding-left: 28%;
     padding-right: 28%;
     font-size: larger;
-}
-
-#misc {
-    background-color: aliceblue;
 }
 
 .sidebar {
@@ -87,3 +81,6 @@ table, th, td  {
     padding: 10px;
     border-collapse: collapse; 
 }
+
+
+/* we still need a a:active, a:visited */
