@@ -81,6 +81,15 @@ table, th, td  {
     padding: 10px;
     border-collapse: collapse; 
 }
+a:visited {
+    color: rgb(0, 75, 136);
+  }
+  a:link {
+    color: green;
+  }
+  a:active {
+    color: yellow;
+  } 
 
 
 /* we still need a a:active, a:visited */
