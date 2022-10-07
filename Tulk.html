@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
-  <!---In order to keep the line of code within the 100-120 limit, I had to remove the spacing between the code. In a normal scenario I'd prefer to have these spacings,
+  <!-- In order to keep the line of code within the 100-120 limit, I had to remove the spacing between the code. In a normal scenario I'd prefer to have these spacings,
     so that it is easier for any other coder (including myself) to read them.-->
   <title>Tulk</title>
 </head>
@@ -46,6 +46,10 @@
         <li>Saturnalia: 17th - 23rd December</li>
       </ul>
     </aside>
+
+    <!-- we're aware that we get validation a warning in the code for these sections "lacking" 
+      a heading however it has h2 headings so we chose to ignore it-->
+      
     <!--Article-->
     <section class="main-content">
       <article>
@@ -72,7 +76,9 @@
         <details>
           <summary>Image of Nero on a coin.</summary>
           <img src=nero-coin.jpg alt="Nero Coin" width="200" height="250">
-          <figcaption>Gold coin from circa 60 AD</figcaption>
+          <figure>
+            <figcaption>Gold coin from circa 60 AD</figcaption>
+          </figure>
         </details>
         <h2 id="commodus">Commodus</h2>
         <p>Caesar Marcus Aurelius Commodus Antoninus Augustus reigned as Emperor for about twenty years.
@@ -85,7 +91,9 @@
         <details>
           <summary>Image of Commodus on a coin.</summary>
           <img src=commodus-coin.jpg alt="Commodus Coin" width="200" height="250">
-          <figcaption>Bronze coin from circa 180 AD</figcaption>
+          <figure>
+            <figcaption>Bronze coin from circa 180 AD</figcaption>
+          </figure>
         </details>
         <h2 id="hadrian">Hadrian</h2>
         <p>Caesar Traianus Hadrianus Augustus, also known as Hadrian was one of the Five Good Emperors.
@@ -100,7 +108,9 @@
         <details>
           <summary>The Defensive Emperor Hadrian.</summary>
           <img src=hadrian-coin.jpg alt="Hadrian Coin" width="200" height="250">
-          <figcaption>Gold coin from circa 120 AD</figcaption>
+          <figure>
+            <figcaption>Gold coin from circa 120 AD</figcaption>
+          </figure>
         </details>
         <h2 id="basil">Basil II</h2>
         <p>Basil Bulgaroctonus, or Basil the Slayer of the Bulgars, is one of most well admired Emperors to reign in
@@ -113,11 +123,12 @@
         <details>
           <summary>The Great Basil II, Slayer of the Bulgars</summary>
           <img src=basil-coin.jpg alt="Basil Coin" width="375" height="300">
-          <figcaption>Gold coin from circa 1000 AD</figcaption>
+          <figure>
+            <figcaption>Gold coin from circa 1000 AD</figcaption>
+          </figure>
         </details>
       </article>
     </section>
-
   </main>
   <!--Footer-->
   <footer class="footer">
