@@ -93,5 +93,7 @@ a:active {
 .architecture_img {
     width: 850px;
     height: 200px;
+    max-width: 90%;
+    max-height: 30%;
     object-fit: cover;
 }
